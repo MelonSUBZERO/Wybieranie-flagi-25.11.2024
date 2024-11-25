@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porówbywanie krajów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+    <div class="header">
+        <h1>Który kraj ma większą populację?</h1>
+    </div>
+    <div class="kraje">
+        <div id="kraj1" onclick="lewy()">
+        <img id="flaga1"><br>
+        <h1 id="nazwa1"></h1>
+    </div>
+    <div id="kraj2" onclick="prawy()">
+        <img id="flaga2"><br>
+        <h1 id="nazwa2"></h1>
+    </div>
+    </div>
+    <div id="wynik">
+        <h1>Wynik</h1>
+        <p id="pop"></p>
+        <p id="niep"></p>
+        <p id="rekord"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

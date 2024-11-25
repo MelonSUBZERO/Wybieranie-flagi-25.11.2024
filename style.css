@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(145, 132, 132);
+}
+
+.kraje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+#kraj1, #kraj2 {
+    background-color: rgb(216, 199, 169);
+    height: 500px;
+    width: 25%;
+    margin: auto;
+    transition: transform 1.5s ease, background-color 1.5s ease, color 1.5s ease;
+}
+
+#wynik {
+    background-color: rgb(216, 199, 169);
+    height: 200px;
+    text-align: center;
+    border-radius: 50px;
+}
+.cont{
+    border: 10px solid rgb(216, 199, 169);
+    border-radius: 75px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 199, 169);
+    border-radius: 50px;
+}
+h1 {
+    text-align: center;
+}
+
+#kraj1:hover, #kraj2:hover {
+    transform: scale(1.2);
+    background-color: rgb(135, 8, 135);
+    color: white;
+    cursor: pointer;
+}
+
+#pop {
+    font-size: x-large;
+    color: green;
+    font-weight: bolder;
+}
+
+#niep {
+    font-size: x-large;
+    color: darkred;
+    font-weight: bolder;
+}
+#rekord{
+    font-size: x-large;
+    font-weight: bolder;
+}
