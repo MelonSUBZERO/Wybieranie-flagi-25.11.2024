@@ -52,6 +52,7 @@ async function lewy() {
     }
 
     if (niep == 5) {
+        alert().name = 'KONIEC GRY'
         alert(`Koniec gry, przegrałeś! Osiągnąłeś wynik ${popr} poprawnych odpowiedzi`);
         window.location.reload(true);
     }
